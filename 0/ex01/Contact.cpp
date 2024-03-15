@@ -3,37 +3,34 @@
 // Default constructor
 Contact::Contact() {}
 
-// Destructor
-Contact::~Contact() {}
-
 // Setters
-void Contact::setFirstName(const std::string &firstName) {
-  this->firstName = firstName;
+void Contact::setFirstname(const std::string &firstname) {
+    this->firstname = firstname;
 }
 
-void Contact::setLastName(const std::string &lastName) {
-  this->lastName = lastName;
+void Contact::setLastname(const std::string &lastname) {
+    this->lastname = lastname;
 }
 
 void Contact::setNickname(const std::string &nickname) {
-  this->nickname = nickname;
+    this->nickname = nickname;
 }
 
-void Contact::setPhoneNumber(const std::string &phoneNumber) {
-  this->phoneNumber = phoneNumber;
+void Contact::setPhonenumber(const std::string &phonenumber) {
+    this->phonenumber = phonenumber;
 }
 
-void Contact::setDarkestSecret(const std::string &darkestSecret) {
-  this->darkestSecret = darkestSecret;
+void Contact::setDarkestsecret(const std::string &darkestsecret) {
+    this->darkestsecret = darkestsecret;
 }
 
 // Getters
-std::string Contact::getFirstName() const { return firstName; }
+std::string Contact::getFirstname() const { return firstname; }
 
-std::string Contact::getLastName() const { return lastName; }
+std::string Contact::getLastname() const { return lastname; }
 
 std::string Contact::getNickname() const { return nickname; }
 
-std::string Contact::getPhoneNumber() const { return phoneNumber; }
+std::string Contact::getPhonenumber() const { return phonenumber; }
 
-std::string Contact::getDarkestSecret() const { return darkestSecret; }
+std::string Contact::getDarkestsecret() const { return darkestsecret; }
