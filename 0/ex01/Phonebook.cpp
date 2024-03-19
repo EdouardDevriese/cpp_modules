@@ -48,3 +48,11 @@ void PhoneBook::displayContactInfo(int index) const {
               << "Phone Number: " << contact.getPhonenumber() << std::endl
               << "Darkest Secret: " << contact.getDarkestsecret() << std::endl;
 }
+
+bool PhoneBook::isEmpty() const {
+    return contactCount == 0;
+}
+
+int PhoneBook::getContactCount() const {
+    return contactCount;
+}

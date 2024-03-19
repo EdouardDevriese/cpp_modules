@@ -11,6 +11,8 @@ public:
     void addContact(const Contact &newContact);
     void displayContactList() const;
     void displayContactInfo(int index) const;
+    bool isEmpty() const;
+    int getContactCount() const;
 
 private:
     Contact contacts[8];
