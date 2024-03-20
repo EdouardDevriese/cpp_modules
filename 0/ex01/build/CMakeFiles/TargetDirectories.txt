@@ -1,0 +1,3 @@
+/Users/warredevriese/Developer/cpp_modules/0/ex01/build/CMakeFiles/PhoneBook.dir
+/Users/warredevriese/Developer/cpp_modules/0/ex01/build/CMakeFiles/edit_cache.dir
+/Users/warredevriese/Developer/cpp_modules/0/ex01/build/CMakeFiles/rebuild_cache.dir
