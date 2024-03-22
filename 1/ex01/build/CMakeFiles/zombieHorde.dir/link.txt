@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wextra -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/zombieHorde.dir/Zombie.cpp.o CMakeFiles/zombieHorde.dir/main.cpp.o CMakeFiles/zombieHorde.dir/zombieHorde.cpp.o -o zombieHorde 
