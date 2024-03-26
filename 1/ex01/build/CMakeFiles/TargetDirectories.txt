@@ -1,3 +1,0 @@
-/Users/warredevriese/Developer/cpp_modules/1/ex01/build/CMakeFiles/zombieHorde.dir
-/Users/warredevriese/Developer/cpp_modules/1/ex01/build/CMakeFiles/edit_cache.dir
-/Users/warredevriese/Developer/cpp_modules/1/ex01/build/CMakeFiles/rebuild_cache.dir
