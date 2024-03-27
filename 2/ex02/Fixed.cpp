@@ -48,11 +48,6 @@ float Fixed::toFloat(void) const {
     return static_cast<float>(this->value) / (1 << nrFractionalBits);
 }
 
-std::ostream& operator<<(std::ostream& os, const Fixed& fixed) {
-    os << fixed.toFloat();
-    return os;
-}
-
 bool Fixed::operator<(const Fixed& rhs) const {
     return this->value < rhs.value;
 }
@@ -141,4 +136,9 @@ Fixed& Fixed::max(Fixed& lhs, Fixed& rhs) {
 
 const Fixed& Fixed::max(const Fixed& lhs, const Fixed& rhs) {
     return (lhs.value > rhs.value) ? lhs : rhs;
+}
+
+std::ostream& operator<<(std::ostream& os, const Fixed& fixed) {
+    os << fixed.toFloat();
+    return os;
 }

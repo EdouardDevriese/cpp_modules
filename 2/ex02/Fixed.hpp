@@ -22,8 +22,6 @@ public:
     int toInt(void) const;
     float toFloat(void) const;
 
-    friend std::ostream& operator<<(std::ostream& os, const Fixed& fixed);
-
     bool operator>(const Fixed& rhs) const;
     bool operator<(const Fixed& rhs) const;
     bool operator>=(const Fixed& rhs) const;
@@ -46,5 +44,7 @@ public:
     static Fixed& max(Fixed& lhs, Fixed& rhs);
     static const Fixed& max(const Fixed& lhs, const Fixed& rhs);
 };
+
+std::ostream& operator<<(std::ostream& os, const Fixed& fixed);
 
 #endif
